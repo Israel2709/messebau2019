@@ -1,3 +1,55 @@
+.vh-50 {
+  height: 50vh;
+}
 
+.bg-darker-gray {
+  background: #1b1e23;
+}
+
+* {
+  color: white;
+}
+
+body {
+  background: #292c31;
+}
+
+section.row {
+  height: 100vh;
+}
+
+.news {
+  background-image: url("../img/main-bg.png");
+  background-size: cover;
+}
+.news .btn-news {
+  border-color: #3882b1;
+  color: #3882b1;
+  border-radius: 10px;
+}
+.news .btn-news:hover {
+  background: none;
+  cursor: pointer;
+}
+
+.we-do .legend-wrapper {
+  top: -50px;
+  left: 25%;
+  height: 100px;
+  background: #1b1e23;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.we-do .legend-wrapper p {
+  margin: 0;
+}
+.we-do .legend-wrapper p span {
+  color: #3882b1;
+}
 
 /*# sourceMappingURL=main.css.map */
