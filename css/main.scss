@@ -22,6 +22,14 @@ section.row{
 	height:100vh;
 }
 
+.title{
+	color: #616771;
+}
+
+.w-67{
+	width: 67%;
+}
+
 .news{
 	background-image:url("../img/main-bg.png");
 	background-size:cover;
@@ -33,6 +41,9 @@ section.row{
 			background:none;
 			cursor:pointer;
 		}
+	}
+	.ml-28{
+		margin-left: 28px;
 	}
 }
 
@@ -55,5 +66,35 @@ section.row{
 				color:$messeBlue;
 			}
 		}
+	}
+}
+
+.contact{
+	.form-row{
+		input, button, textarea{
+			background-color: $darkerGray;
+			border-color: #484848;
+			color: white;
+			border-radius: 5px;
+			&::placeholder{
+				color: white;
+			}
+		}
+		input{
+			height: 50px;
+		}
+		button{
+			padding:5px 30px;
+			border-radius: 15px;
+		}
+		textarea{
+			padding-left: 10px;
+		}
+		&.first{
+			margin-top: 43px;
+		}
+	}
+	.address{
+		text-decoration: underline;
 	}
 }
