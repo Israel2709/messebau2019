@@ -2,8 +2,16 @@ $darkGray:#292c31;
 $darkerGray:#1b1e23;
 $messeBlue:#3882b1;
 
+$easeInOutBack: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+$easeInOutSine: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+
 .vh-50{
 	height:50vh;
+}
+
+.vh-110{
+	height:110vh !important;
 }
 
 .bg-darker-gray{
@@ -97,4 +105,16 @@ section.row{
 	.address{
 		text-decoration: underline;
 	}
+}
+
+.slider{
+	#customers-carousel{
+		img{
+			transform: scale(0.7);
+		}
+	}	
+}
+
+.social-media-wrapper{
+	margin-right: 130px;
 }

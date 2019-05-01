@@ -1,6 +1,9 @@
 .vh-50 {
   height: 50vh; }
 
+.vh-110 {
+  height: 110vh !important; }
+
 .bg-darker-gray {
   background: #1b1e23; }
 
@@ -67,5 +70,11 @@ section.row {
   margin-top: 43px; }
 .contact .address {
   text-decoration: underline; }
+
+.slider #customers-carousel img {
+  transform: scale(0.7); }
+
+.social-media-wrapper {
+  margin-right: 130px; }
 
 /*# sourceMappingURL=main.css.map */
