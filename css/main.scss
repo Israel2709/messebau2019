@@ -118,3 +118,17 @@ section.row{
 .social-media-wrapper{
 	margin-right: 130px;
 }
+
+.wrapper-section-active{
+	margin-left: 50px;
+	.bullet{
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: #3d4044;
+		margin-bottom: 50px;
+		&.active{
+			background-color: $messeBlue;	
+		}
+	}
+}
