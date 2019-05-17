@@ -6,6 +6,17 @@ $easeInOutBack: cubic-bezier(0.680, -0.550, 0.265, 1.550);
 $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 $easeInOutSine: cubic-bezier(0.445, 0.050, 0.550, 0.950);
 
+@font-face {font-family: workSansBlack; src: url("../fonts/WorkSans/WorkSans-Black.ttf")}
+@font-face {font-family: workSansBold; src: url("../fonts/WorkSans/WorkSans-Bold.ttf")}
+@font-face {font-family: workSansExtraBold; src: url("../fonts/WorkSans/WorkSans-ExtraBold.ttf")}
+@font-face {font-family: workSansExtraLight; src: url("../fonts/WorkSans/WorkSans-ExtraLight.ttf")}
+@font-face {font-family: workSansLight; src: url("../fonts/WorkSans/WorkSans-Light.ttf")}
+@font-face {font-family: workSansMedium; src: url("../fonts/WorkSans/WorkSans-Medium.ttf")}
+@font-face {font-family: workSansRegular; src: url("../fonts/WorkSans/WorkSans-Regular.ttf")}
+@font-face {font-family: workSansSemiBold; src: url("../fonts/WorkSans/WorkSans-SemiBold.ttf")}
+@font-face {font-family: workSansThin; src: url("../fonts/WorkSans/WorkSans-Thin.ttf")}
+@font-face {font-family: brownStdBold; src: url("../fonts/BrownStd-Bold.otf")}
+
 .vh-50{
 	height:50vh;
 }
@@ -129,6 +140,44 @@ section.row{
 		margin-bottom: 50px;
 		&.active{
 			background-color: $messeBlue;	
+		}
+	}
+}
+
+
+@media (max-width: 768px) {
+	.navbar{
+		padding: 10px 20px !important;
+		.navbar-toggler{
+			border: none;
+			.navbar-toggler-icon {
+			    background-image: url("../img/svg/three-bars.svg");
+			}
+		}
+		.navbar-brand{
+			flex: inherit;
+    		margin-right: -10px;
+		}
+	}
+	.news{
+		p{
+			margin-left: 0px !important;
+		    text-align: justify;
+		    width: 95%;
+
+		}
+	}
+	.we-do{
+		.legend-wrapper{
+			width: 100% !important;
+			left: 0;
+			padding: 0px 30px;
+			position: initial !important;
+		}
+		.col-12{
+			.title, .text-justify{
+				width: 90% !important;
+			}
 		}
 	}
 }

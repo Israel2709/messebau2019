@@ -10,14 +10,11 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark justify-content-between w-100 mt-4 px-0 position-absolute top-0">
+		<nav class="navbar navbar-expand-lg navbar-dark justify-content-between w-100 mt-4 px-0 position-absolute top-0 d-none d-md-block">
 			<div class="container">
 				<div class="row w-100">
 					<div class="col-12 d-flex justify-content-between">
 						<a class="navbar-brand" href="#"><img src="img/main-logo.png" alt=""></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-						</button>
 						<div class="collapse navbar-collapse align-items-center justify-content-end" id="navbarNav">
 							<ul class="navbar-nav mx-3">
 								<li class="nav-item active text-uppercase">
@@ -34,9 +31,21 @@
 				</div>
 			</div>
 		</nav>
+		<nav class="navbar navbar-expand-lg navbar-dark w-100 d-block d-sm-none ">
+			<div class="container">
+				<div class="row w-100">
+					<div class="col-12 d-flex">
+						<a class="navbar-brand" href="#"><img src="img/messebau-movil-logo.png" alt=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</nav>
 		<div class="container-fluid">
 			<section class="row news align-items-center">
-				<div class="wrapper-section-active position-absolute">
+				<div class="wrapper-section-active position-absolute d-none d-md-block">
 					<div class="bullet active"></div>
 					<div class="bullet"></div>
 					<div class="bullet"></div>
@@ -45,10 +54,10 @@
 				<div class="col d-flex align-items-center">
 					<div class="container">
 						<div class="row">
-							<div class="col-10 offset-1">
+							<div class="col-md-10 offset-md-1 col-12">
 								<section class="text-justify d-flex flex-column">
 									<p class="ml-28">Somos una empresa de arquitectura y diseño industrial, expertos en proyectos de alta complejidad con más de 17 años de experiencia. <br><br> Contamos con servicios en toda la República Mexicana y experiencia regional e internacional en los países y recintos referentes del mercado: Messe Frankfurt, Messe Düsseldof, Messe Berlin, Messe Hanover, Feria Bilbao, Fira Barcelona, Ifema Madrir, Fibes Sevilla, Fiera Milano, Milano Convention Center, Paris Expo, Porte de Versailles, Miami Convention Center, Javits Center NY, WTC Sao Paulo, Lima Convention Center, Rural de Buenos Aires, Casa Piedra y Espacio Riesco Santiago de Chile.</p>
-									<div class="btn btn-outline-success btn-news align-self-end mt-3 px-4">NOTICIAS</div>
+									<div class="btn btn-outline-success btn-news align-self-end mt-3 px-4 d-none d-md-block">NOTICIAS</div>
 								</section>
 							</div>
 						</div>
@@ -56,7 +65,7 @@
 				</div>
 			</section>
 			<section class="row we-do position-relative align-items-center">
-				<div class="wrapper-section-active position-absolute">
+				<div class="wrapper-section-active position-absolute d-none d-md-block">
 					<div class="bullet"></div>
 					<div class="bullet active"></div>
 					<div class="bullet"></div>
@@ -67,23 +76,23 @@
 						No Vendemos Diseño <span>Vendemos Calidad</span>
 					</p>
 				</div>
-				<div class="col-sm-6 vh-50 d-flex flex-column justify-content-center align-items-center">
+				<div class="col-sm-6 col-12 vh-50 d-flex flex-column justify-content-center align-items-center">
 					<h2 class="w-67 title">Proyectos de Exhibición</h2>
-					<p class="w-67 text-justify">Diseño, concepto, propuesta, factibilidad técnica, fabricación, montaje y operación de stand, escenografía, corner, islas, dummies/volumétricas, sistemas de exhibición modulares, road show, mobiliario exclusivo</p>
+					<p class="w-67 text-justify">Diseño, concepto, propuesta, factibilidad técnica, fabricación, montaje y operación de stand, escenografía, corner, islas, dummies/volumétricas, sistemas de exhibición modulares, road show, mobiliario exclusivo.</p>
 				</div>
-				<div class="col-sm-6 vh-50 px-0 d-flex justify-content-center align-items-end overflow-hidden">
+				<div class="col-sm-6 col-12 vh-50 px-0 d-flex justify-content-center align-items-end overflow-hidden">
 					<img src="img/img-1.png" class="w-100" alt="">
 				</div>
-				<div class="col-sm-6 vh-50 px-0 d-flex justify-content-center align-items-start overflow-hidden">
+				<div class="col-sm-6 col-12 vh-50 px-0 d-flex justify-content-center align-items-start overflow-hidden">
 					<img src="img/img-2.png" class="w-100" alt="">
 				</div>
-				<div class="col-sm-6 vh-50 d-flex flex-column justify-content-center align-items-center">
+				<div class="col-sm-6 col-12 vh-50 d-flex flex-column justify-content-center align-items-center">
 					<h2 class="w-67 title">Proyectos de Arquitectura</h2>
 					<p class="w-67 text-justify">Due diligente, anteproyectos, remodelaciones, obra civil, dirección arquitectónica, proyectos de ingenierías, acabados internos y externos, fachadas, vitrinas, letreros luminosos exteriores e interiores en relieve / 3D, impresión digital en todos los formatos, herrajes, piezas especiales y corte a alto detalle en acrílico, madera y aciero para mediana o alta producción, cancelería.</p>
 				</div>
 			</section>
 			<section class="row bg-darker-gray vh-110 slider align-items-center">
-				<div class="wrapper-section-active position-absolute">
+				<div class="wrapper-section-active position-absolute d-none d-md-block">
 					<div class="bullet"></div>
 					<div class="bullet"></div>
 					<div class="bullet active"></div>
@@ -138,7 +147,7 @@
 				</div>
 			</section>
 			<section class="row d-flex align-items-center contact">
-				<div class="wrapper-section-active position-absolute">
+				<div class="wrapper-section-active position-absolute d-none d-md-block">
 					<div class="bullet"></div>
 					<div class="bullet"></div>
 					<div class="bullet"></div>
