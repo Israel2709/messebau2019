@@ -5,8 +5,8 @@ $(document).bind('scroll',function(e){
 });
 
 $(".wrapper-section-active .bullet").click((event)=>{
-	$(".wrapper-section-active .bullet").removeClass("active");
-	$(event.target).addClass("active");
+	//$(".wrapper-section-active .bullet").removeClass("active");
+	//$(event.target).addClass("active");
 	let selectedSection = $(event.target).data("section-target");
 	$('html, body').animate({
         scrollTop: $("#"+selectedSection).offset().top
