@@ -11,5 +11,8 @@ $(".wrapper-section-active .bullet").click((event)=>{
 	$('html, body').animate({
         scrollTop: $("#"+selectedSection).offset().top
     }, 1000);
+})
 
+$(".navbar button, .aside-navbar .close-icon").click(()=>{
+	$(".aside-navbar").toggleClass("hidden-navbar");
 })

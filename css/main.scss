@@ -48,6 +48,10 @@ section.row{
 	width: 67%;
 }
 
+.navbar{
+	position:absolute;
+}
+
 .news{
 	background-image:url("../img/main-bg.png");
 	background-size:cover;
@@ -71,7 +75,7 @@ section.row{
 		left:25%;
 		height:100px;
 		background:$darkerGray;
-		z-index:9999;
+		z-index:9000;
 		display:flex;
 		justify-content: center;
 		align-items:center;
@@ -147,7 +151,11 @@ section.row{
 
 @media (max-width: 768px) {
 	.navbar{
+		background:$darkGray !important;
 		padding: 10px 20px !important;
+		z-index:9999;
+		position:fixed;
+		top:0;
 		.navbar-toggler{
 			border: none;
 			.navbar-toggler-icon {
@@ -155,9 +163,30 @@ section.row{
 			}
 		}
 		.navbar-brand{
+    		width:50%;
     		img{
-    			width:50%;
+    			width:100%;
     		}
+		}
+		.aside-navbar{
+			left:0px;
+			top:66px;
+			height:calc(100vh - 66px);
+			z-index:9999;
+			transition:all 1s;
+			opacity:1;
+			.close-icon{
+				top:15px;
+				right:15px;
+				cursor:pointer;
+			}
+			.social-media-wrapper{
+				bottom:15px;
+			}
+			&.hidden-navbar{
+				left:-75%;
+				opacity:.75;
+			}
 		}
 	}
 	.news{
