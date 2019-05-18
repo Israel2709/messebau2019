@@ -185,6 +185,12 @@ section.row {
   .we-do .col-12 .title, .we-do .col-12 .text-justify {
     width: 90% !important;
   }
+  .we-do h2 {
+    font-size: 26px !important;
+  }
+  .we-do .img2, .we-do .text2 {
+    float: left !important;
+  }
 
   .contact {
     margin-bottom: 50px;
