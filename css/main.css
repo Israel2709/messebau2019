@@ -96,14 +96,7 @@ section.row {
   padding: 5px 30px;
   border-radius: 15px; }
 .contact .form-row textarea {
-<<<<<<< HEAD
   padding-left: 10px; }
-.contact .form-row.first {
-  margin-top: 43px; }
-=======
-  padding-left: 10px;
-}
->>>>>>> 5d14e22140814e4080c779abf12e6ca70a987796
 .contact .address {
   text-decoration: underline; }
 
@@ -143,17 +136,28 @@ section.row {
     text-align: justify;
     width: 95%; }
 
-  .we-do .legend-wrapper {
-    width: 100% !important;
-    left: 0;
-    padding: 0px 30px;
-    position: initial !important; }
-  .we-do .col-12 .title, .we-do .col-12 .text-justify {
-    width: 90% !important; }
-  .we-do h2 {
-    font-size: 26px !important; }
-  .we-do .img2, .we-do .text2 {
-    float: left !important; }
+  .we-do {
+    height: 190vh !important; }
+    .we-do .legend-wrapper {
+      width: 100% !important;
+      left: 0;
+      padding: 0px 30px;
+      position: initial !important; }
+    .we-do .col-12 .title, .we-do .col-12 .text-justify {
+      width: 90% !important; }
+    .we-do h2 {
+      font-size: 24px !important; }
+      .we-do h2:first-of-type {
+        margin-top: 20px; }
+    .we-do .img2, .we-do .text2 {
+      float: left !important; }
+    .we-do .col-12 {
+      height: auto !important; }
+    .we-do img {
+      margin: 20px 0px !important; }
+
+  .bg-darker-gray {
+    height: 220vh !important; }
 
   .contact {
     margin-bottom: 50px; }

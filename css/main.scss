@@ -168,6 +168,7 @@ section.row{
 		}
 	}
 	.we-do{
+		height: 190vh !important;
 		.legend-wrapper{
 			width: 100% !important;
 			left: 0;
@@ -180,11 +181,23 @@ section.row{
 			}
 		}
 		h2{
-			font-size: 26px !important;
+			font-size: 24px !important;
+			&:first-of-type{
+				margin-top: 20px;
+			}
 		}
 		.img2, .text2{
 			float: left !important;
 		}
+		.col-12{
+			height: auto !important;
+		}
+		img{
+			margin: 20px 0px !important	;
+		}
+	}
+	.bg-darker-gray{
+		height: 220vh !important;
 	}
 	.contact{
 		margin-bottom: 50px;
