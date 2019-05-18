@@ -155,8 +155,9 @@ section.row{
 			}
 		}
 		.navbar-brand{
-			flex: inherit;
-    		margin-right: -10px;
+    		img{
+    			width:50%;
+    		}
 		}
 	}
 	.news{

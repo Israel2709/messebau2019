@@ -166,9 +166,8 @@ section.row {
   .navbar .navbar-toggler .navbar-toggler-icon {
     background-image: url("../img/svg/three-bars.svg");
   }
-  .navbar .navbar-brand {
-    flex: inherit;
-    margin-right: -10px;
+  .navbar .navbar-brand img {
+    width: 50%;
   }
 
   .news p {
