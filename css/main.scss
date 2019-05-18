@@ -1,7 +1,6 @@
 $darkGray:#292c31;
 $darkerGray:#1b1e23;
 $messeBlue:#3882b1;
-
 $easeInOutBack: cubic-bezier(0.680, -0.550, 0.265, 1.550);
 $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 $easeInOutSine: cubic-bezier(0.445, 0.050, 0.550, 0.950);
@@ -133,12 +132,15 @@ section.row{
 
 .wrapper-section-active{
 	margin-left: 50px;
+	top:calc(50vh - 120px);
+	z-index:9999;
 	.bullet{
 		width: 10px;
 		height: 10px;
 		border-radius: 50%;
 		background-color: #3d4044;
 		margin-bottom: 50px;
+		cursor:pointer;
 		&.active{
 			background-color: $messeBlue;	
 		}

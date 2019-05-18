@@ -109,13 +109,16 @@ section.row {
   margin-right: 130px; }
 
 .wrapper-section-active {
-  margin-left: 50px; }
+  margin-left: 50px;
+  top: calc(50vh - 120px);
+  z-index: 9999; }
   .wrapper-section-active .bullet {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #3d4044;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    cursor: pointer; }
     .wrapper-section-active .bullet.active {
       background-color: #3882b1; }
 

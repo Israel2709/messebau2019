@@ -43,14 +43,14 @@
 				</div>
 			</div>
 		</nav>
+		<div class="wrapper-section-active position-fixed d-none d-md-block">
+			<div class="bullet active" data-section-target="section-1"></div>
+			<div class="bullet" data-section-target="section-2"></div>
+			<div class="bullet" data-section-target="section-3"></div>
+			<div class="bullet" data-section-target="section-4"></div>
+		</div>
 		<div class="container-fluid">
-			<section class="row news align-items-center">
-				<div class="wrapper-section-active position-absolute d-none d-md-block">
-					<div class="bullet active"></div>
-					<div class="bullet"></div>
-					<div class="bullet"></div>
-					<div class="bullet"></div>
-				</div>
+			<section id="section-1" class="spy-section row news align-items-center">
 				<div class="col d-flex align-items-center">
 					<div class="container">
 						<div class="row">
@@ -64,13 +64,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="row we-do position-relative align-items-center">
-				<div class="wrapper-section-active position-absolute d-none d-md-block">
-					<div class="bullet"></div>
-					<div class="bullet active"></div>
-					<div class="bullet"></div>
-					<div class="bullet"></div>
-				</div>
+			<section id="section-2" class="spy-section row we-do position-relative align-items-center">
 				<div class="legend-wrapper position-absolute w-50">
 					<p>
 						No Vendemos Diseño <span>Vendemos Calidad</span>
@@ -91,13 +85,7 @@
 					<img src="img/img-2.png" class="w-100" alt="">
 				</div>
 			</section>
-			<section class="row bg-darker-gray vh-110 slider align-items-center d-none">
-				<div class="wrapper-section-active position-absolute d-none d-md-block">
-					<div class="bullet"></div>
-					<div class="bullet"></div>
-					<div class="bullet active"></div>
-					<div class="bullet"></div>
-				</div>
+			<section id="section-3" class="spy-section row bg-darker-gray vh-110 slider align-items-center">
 				<div class="container">
 					<div class="row">
 						<div class="col-10 offset-1">
@@ -146,13 +134,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="row d-flex align-items-center contact">
-				<div class="wrapper-section-active position-absolute d-none d-md-block">
-					<div class="bullet"></div>
-					<div class="bullet"></div>
-					<div class="bullet"></div>
-					<div class="bullet active"></div>
-				</div>
+			<section id="section-4" class="spy-section row d-flex align-items-center contact">
 				<div class="col">
 					<div class="container">
 						<div class="row">
@@ -214,6 +196,8 @@
 				</div>
 			</div>
 		</footer>
+		<script>document.write('<script src="http://127.0.0.1:35729/livereload.js?ext=Chrome&extver=2.1.0"></' + 'script>')</script>
+
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/bootstrap.bundle.min.js"></script>
