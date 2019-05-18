@@ -96,9 +96,14 @@ section.row {
   padding: 5px 30px;
   border-radius: 15px; }
 .contact .form-row textarea {
+<<<<<<< HEAD
   padding-left: 10px; }
 .contact .form-row.first {
   margin-top: 43px; }
+=======
+  padding-left: 10px;
+}
+>>>>>>> 5d14e22140814e4080c779abf12e6ca70a987796
 .contact .address {
   text-decoration: underline; }
 
