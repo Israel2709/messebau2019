@@ -158,15 +158,13 @@ section.row {
         left: -75%;
         opacity: .75; }
 
-  .news {
-    height: 80vh; }
-    .news p {
-      margin-left: 0px !important;
-      text-align: justify;
-      width: 95%; }
+  .news p {
+    margin-left: 0px !important;
+    text-align: justify;
+    width: 95%; }
 
   .we-do {
-    height: 155vh !important; }
+    height: 190vh !important; }
     .we-do .legend-wrapper {
       width: 100% !important;
       left: 0;
@@ -187,17 +185,20 @@ section.row {
       flex-direction: row; }
 
   .bg-darker-gray {
-    height: 200vh !important; }
+    height: 270vh !important;
+    /*#customers-carousel{
+    	transform: rotate(90deg);
+    	img{
+    		transform: rotate(-90deg);
+    	}
+    }*/ }
     .bg-darker-gray h2 {
       font-size: 24px !important; }
     .bg-darker-gray .row {
       padding: 0px !important; }
-    .bg-darker-gray #customers-carousel-mobile img {
-      transform: scale(0.7);
-      vertical-align: middle; }
 
   .contact {
-    height: 110vh !important;
+    height: 140vh !important;
     margin-bottom: 50px; }
     .contact form input {
       width: 100% !important;

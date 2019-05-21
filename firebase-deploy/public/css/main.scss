@@ -194,7 +194,6 @@ section.row{
 		}
 	}
 	.news{
-		height: 80vh;
 		p{
 			margin-left: 0px !important;
 		    text-align: justify;
@@ -203,7 +202,7 @@ section.row{
 		}
 	}
 	.we-do{
-		height: 155vh !important;
+		height: 190vh !important;
 		.legend-wrapper{
 			width: 100% !important;
 			left: 0;
@@ -233,22 +232,22 @@ section.row{
 		}
 	}
 	.bg-darker-gray{
-		height: 200vh !important;
+		height: 270vh !important;
 		h2{
 			font-size: 24px !important;
 		}
+		/*#customers-carousel{
+			transform: rotate(90deg);
+			img{
+				transform: rotate(-90deg);
+			}
+		}*/
 		.row{
 			padding: 0px !important;
 		}
-		#customers-carousel-mobile{
-			img{
-				transform: scale(.7);
-				vertical-align: middle;
-			}
-		}	
 	}
 	.contact{
-		height: 110vh !important;
+		height: 140vh !important;
 		margin-bottom: 50px;
 		form{
 			input{
