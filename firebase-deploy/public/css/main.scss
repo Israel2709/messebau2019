@@ -194,7 +194,7 @@ section.row{
 		}
 	}
 	.news{
-		height: 110vh !important;
+		height: 100vh;
 		p{
 			margin-left: 0px !important;
 		    text-align: justify;
@@ -233,7 +233,7 @@ section.row{
 		}
 	}
 	.bg-darker-gray{
-		height: 210vh !important;
+		height: 270vh !important;
 		h2{
 			font-size: 24px !important;
 		}
@@ -242,13 +242,13 @@ section.row{
 		}
 		#customers-carousel-mobile{
 			img{
-				transform: scale(0.9);
+				transform: scale(.7);
 				vertical-align: middle;
 			}
 		}	
 	}
 	.contact{
-		height: 150vh !important;
+		height: 130vh !important;
 		margin-bottom: 50px;
 		form{
 			input{
