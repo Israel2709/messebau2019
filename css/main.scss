@@ -28,12 +28,27 @@ $easeInOutSine: cubic-bezier(0.445, 0.050, 0.550, 0.950);
 	background:$darkerGray;
 }
 
+body{
+	overflow-x:hidden;
+	width:100vw;
+}
+
 *{
 	color:white;
 }
 
 body{
 	background:$darkGray;
+}
+
+section{
+	*{
+		transition:all .5s ease-out;
+		left:0;
+		&.left-hidden{
+			left:-100% !important;
+		}
+	}
 }
 
 section.row{
