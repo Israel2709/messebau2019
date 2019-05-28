@@ -148,6 +148,9 @@ section.row{
 
 .social-media-wrapper{
 	margin-right: 130px;
+	img{
+		cursor: pointer;
+	}
 }
 
 .wrapper-section-active{
@@ -201,6 +204,9 @@ section.row{
 			}
 			.social-media-wrapper{
 				bottom:15px;
+				img{
+					cursor: pointer;
+				}
 			}
 			&.hidden-navbar{
 				left:-75%;
@@ -248,9 +254,10 @@ section.row{
 		}
 	}
 	.bg-darker-gray{
-		height: 270vh !important;
+		height: 250vh !important;
 		h2{
 			font-size: 24px !important;
+			margin-top: 30px !important;
 		}
 		.row{
 			padding: 0px !important;
@@ -263,7 +270,7 @@ section.row{
 		}	
 	}
 	.contact{
-		height: 180vh !important;
+		height: 160vh !important;
 		margin-bottom: 50px;
 		form{
 			input{
