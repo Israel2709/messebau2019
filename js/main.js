@@ -32,3 +32,7 @@ $(".navbar button, .aside-navbar .close-icon, .nav-link").click(()=>{
 function restrictToNumber(a){
     var m=a.keyCode?a.keyCode:a.which;-1!==[8,9,13,27,46,110,190].indexOf(m)||65==m&&(a.ctrlKey||a.metaKey)||m>=35&&40>=m||m>=48&&57>=m&&!a.shiftKey&&!a.altKey||m>=96&&105>=m||a.preventDefault()
 }
+
+function toggleMap(){
+    $(".map-wrapper").toggleClass("d-none")
+}

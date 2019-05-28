@@ -114,7 +114,30 @@ section.row {
 .contact .form-row textarea {
   padding-left: 10px; }
 .contact .address {
-  text-decoration: underline; }
+  text-decoration: underline;
+  cursor: pointer; }
+.contact .map-wrapper {
+  height: 60vh;
+  width: 100%;
+  position: absolute !important;
+  bottom: 0px;
+  overflow: hidden;
+  z-index: 9999;
+  justify-content: center;
+  display: inline-grid; }
+  .contact .map-wrapper h1 {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .contact .map-wrapper h1 button.close {
+      opacity: 1; }
+    .contact .map-wrapper h1 span {
+      float: right;
+      cursor: pointer;
+      color: white;
+      font-size: 21px; }
+  .contact .map-wrapper #map {
+    width: 100%;
+    height: 100%; }
 
 .slider #customers-carousel img {
   transform: scale(0.7); }
@@ -123,6 +146,9 @@ section.row {
   margin-right: 130px; }
   .social-media-wrapper img {
     cursor: pointer; }
+
+.carousel-control-next {
+  width: 100%; }
 
 .wrapper-section-active {
   margin-left: 50px;
@@ -201,7 +227,7 @@ section.row {
       flex-direction: row; }
 
   .bg-darker-gray {
-    height: 250vh !important; }
+    height: 290vh !important; }
     .bg-darker-gray h2 {
       font-size: 24px !important;
       margin-top: 30px !important; }
