@@ -295,6 +295,12 @@ section.row{
 			padding: 0px !important;
 		}
 		#customers-carousel-mobile{
+			height:100px;
+			.carousel-item.active,.carousel-item-next{
+				display:flex;
+				align-items:center;
+				height:100px;
+			}
 			img{
 				transform: scale(0.9);
 				vertical-align: middle;
@@ -302,7 +308,7 @@ section.row{
 		}	
 	}
 	.contact{
-		height: 160vh !important;
+		height: 130vh !important;
 		margin-bottom: 50px;
 		form{
 			input{
