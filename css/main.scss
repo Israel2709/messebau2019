@@ -256,7 +256,7 @@ section.row{
 		}
 	}
 	.we-do{
-		height: 190vh !important;
+		height: 195vh !important;
 		.legend-wrapper{
 			width: 100% !important;
 			left: 0;
@@ -286,7 +286,7 @@ section.row{
 		}
 	}
 	.bg-darker-gray{
-		height: 280vh !important;
+		height: 160vh !important;
 		h2{
 			font-size: 24px !important;
 			margin-top: 20px !important;
@@ -308,7 +308,7 @@ section.row{
 		}	
 	}
 	.contact{
-		height: 130vh !important;
+		height: 140vh !important;
 		margin-bottom: 50px;
 		form{
 			input{
@@ -349,6 +349,44 @@ section.row{
 					height: 300px !important;
 				}
 		    }
+		}
+	}
+	.showcase-wrapper{
+		display:flex;
+		.show-case-item{
+			height:70vh;
+			flex-grow: 1;
+			position: relative;
+			border:3px solid $darkerGray;
+			&.under{
+				background:linear-gradient(transparent, rgba(0,0,0,1)),url("../img/under-mobile.png");
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+			}
+			&.braun{
+				background:linear-gradient(transparent, rgba(0,0,0,1)),url("../img/braun-mobile.png");
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+			}
+			&.atramat{
+				background:linear-gradient(transparent, rgba(0,0,0,1)),url("../img/atramat-mobile.png");
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+			}
+			.zoom-in-btn{
+				width:30px;
+				height: 30px;
+				background-image:url("../img/zoom-icon.png");
+				background-size:cover;
+				background-repeat: no-repeat;
+				background-position:center;
+			    position: absolute;
+			    bottom: 20px;
+			    left: calc(50% - 15px);
+			}
 		}
 	}
 }

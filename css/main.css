@@ -266,7 +266,7 @@ section.row {
   }
 
   .we-do {
-    height: 190vh !important;
+    height: 195vh !important;
   }
   .we-do .legend-wrapper {
     width: 100% !important;
@@ -295,7 +295,7 @@ section.row {
   }
 
   .bg-darker-gray {
-    height: 280vh !important;
+    height: 160vh !important;
   }
   .bg-darker-gray h2 {
     font-size: 24px !important;
@@ -318,7 +318,7 @@ section.row {
   }
 
   .contact {
-    height: 130vh !important;
+    height: 140vh !important;
     margin-bottom: 50px;
   }
   .contact form input {
@@ -356,6 +356,45 @@ section.row {
   .contact .map-wrapper #map iframe {
     width: 400px !important;
     height: 300px !important;
+  }
+
+  .showcase-wrapper {
+    display: flex;
+  }
+  .showcase-wrapper .show-case-item {
+    height: 70vh;
+    flex-grow: 1;
+    position: relative;
+    border: 3px solid #1b1e23;
+  }
+  .showcase-wrapper .show-case-item.under {
+    background: linear-gradient(transparent, black), url("../img/under-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .showcase-wrapper .show-case-item.braun {
+    background: linear-gradient(transparent, black), url("../img/braun-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .showcase-wrapper .show-case-item.atramat {
+    background: linear-gradient(transparent, black), url("../img/atramat-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .showcase-wrapper .show-case-item .zoom-in-btn {
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/zoom-icon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 15px);
   }
 }
 
