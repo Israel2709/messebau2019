@@ -119,6 +119,19 @@ section.row{
 	}
 }
 
+#brands-modal{
+	.modal-dialog{
+		margin-top:15vh;
+		.modal-content{
+			background:$darkGray;
+		}
+	}
+}
+
+.modal-backdrop.show{
+	opacity: .9;
+}
+
 .contact{
 	.form-row{
 		input, button, textarea{
@@ -210,7 +223,7 @@ section.row{
 .modal{
 	button{
 		span{
-			color: $darkGray;
+			color: white;
 		    float: right;
     		margin-right: 15px;
 		}
