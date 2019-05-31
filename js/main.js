@@ -38,7 +38,7 @@ function toggleMap(){
 }
 
 function showModal(img){
-    $('#brandsModal').modal('show')
+    $('#brands-modal').modal('show')
     if (img == "under") {
         $("#under").removeClass("d-none")
         $("#braun, #atramat").addClass("d-none")
