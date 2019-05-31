@@ -110,6 +110,15 @@ section.row{
 	}
 }
 
+#section-3{
+	.img-principal{
+		cursor: pointer;
+	}
+	.carousel-control-next{
+		width: 100%
+	}
+}
+
 .contact{
 	.form-row{
 		input, button, textarea{
@@ -181,10 +190,6 @@ section.row{
 	}
 }
 
-.carousel-control-next{
-	width: 100%
-}
-
 .wrapper-section-active{
 	margin-left: 50px;
 	top:calc(50vh - 120px);
@@ -198,6 +203,16 @@ section.row{
 		cursor:pointer;
 		&.active{
 			background-color: $messeBlue;	
+		}
+	}
+}
+
+.modal{
+	button{
+		span{
+			color: $darkGray;
+		    float: right;
+    		margin-right: 15px;
 		}
 	}
 }
@@ -285,7 +300,7 @@ section.row{
 			flex-direction: row;
 		}
 	}
-	.bg-darker-gray{
+	#section-3{
 		height: 160vh !important;
 		h2{
 			font-size: 24px !important;

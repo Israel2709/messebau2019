@@ -36,3 +36,17 @@ function restrictToNumber(a){
 function toggleMap(){
     $(".map-wrapper").toggleClass("d-none")
 }
+
+function showModal(img){
+    $('#brandsModal').modal('show')
+    if (img == "under") {
+        $("#under").removeClass("d-none")
+        $("#braun, #atramat").addClass("d-none")
+    } else if (img == "braun"){
+        $("#braun").removeClass("d-none")
+        $("#under, #atramat").addClass("d-none")
+    } else{
+        $("#atramat").removeClass("d-none")
+        $("#under, #braun").addClass("d-none")
+    }
+}
